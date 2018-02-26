@@ -1,0 +1,8 @@
+// Represents everything besides the navbar
+.ide-container {
+  // Remove the padding from the bootstrap container
+  padding-left: 0;
+  padding-right: 0;
+  // Limit height to 100% - navbar
+  max-height: 94%;
+}

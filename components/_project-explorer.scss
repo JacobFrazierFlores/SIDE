@@ -1,0 +1,14 @@
+// Represents the side bar explorer
+.project-explorer {
+  // Should be 100% - navbar height
+  max-height: inherit;
+
+  // Heading for explorer
+  h2 {
+    // Should be the same as nav-tabs
+    height: 6%;
+    font-size: .8em;
+    border-bottom: solid 1px #d3d3d3;
+    margin: 0;
+  }
+}

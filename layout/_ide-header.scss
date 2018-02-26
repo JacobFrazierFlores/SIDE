@@ -1,0 +1,11 @@
+// Override Bootstrap navbar styles
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  max-height: inherit;
+}
+
+// Kind of redundant, limit height to 6%
+.ide-header {
+  max-height: 6%;
+}

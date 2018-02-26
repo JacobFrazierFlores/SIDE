@@ -1,0 +1,21 @@
+// Represents the list of file names, underneath the package headers
+.file-list {
+  // Remove the spacing and dots from the list
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  // Represents the file image and file name
+  li {
+    cursor: pointer;
+    // File image
+    img {
+      // Adds spacing between file image and file name
+      padding-right: .4em;
+    }
+    // File name
+    a {
+      // Reduce text size
+      font-size: .8em;
+    }
+  }
+}

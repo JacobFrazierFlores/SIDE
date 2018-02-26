@@ -1,0 +1,7 @@
+// The area containing the line numbers and actual file content
+.file-container {
+  // Gives the area an internal scroll bar
+  overflow-y: scroll;
+  // Should be 100% - height of navbar - height of tabs
+  max-height: 88%;
+}

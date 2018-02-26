@@ -1,0 +1,40 @@
+// Override some of Bootstrap's styling for nav-tabs
+.nav-tabs {
+  min-height: 44px;
+  max-height: 6%;
+  // Each li represents a tab
+  li {
+    // Clickable link within tab
+    a {
+      // Button that deletes tab
+      button {
+        margin-left: 10px;
+        background: none;
+        border: none;
+        visibility: hidden;
+        font-weight: 600;
+
+        &:hover {
+          color: red;
+        }
+
+      }
+
+      // Only show button of active tab
+      &.active {
+        button {
+          visibility: visible;
+        }
+      }
+    }
+
+    // Show button of tabs when hovered over
+    &:hover {
+      a {
+        button {
+          visibility: visible;
+        }
+      }
+    }
+  }
+}

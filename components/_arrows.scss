@@ -1,0 +1,31 @@
+// Places a downward facing arrow in front of the element
+.expanded-arrow {
+  &::before {
+    content: "";
+    border-color: #111 transparent;
+    border-style: solid;
+    border-width: 0.45em .35em 0 0.35em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: .9em;
+    position: relative;
+  }
+}
+
+// Place a right facing arrow in front of the element
+.collapsed-arrow {
+  &::before {
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 1em;
+    position: relative;
+  }
+}

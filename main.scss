@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@import "abstracts/variables";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+///import base files
+
+@import "layout/ide-header";
+@import "layout/explorer-container";
+@import "layout/ide-container";
+@import "layout/content-container";
+
+@import "components/arrows";
+@import "components/package-list";
+@import "components/package";
+@import "components/file-list";
+@import "components/nav-tabs";
+@import "components/line-numbers";
+@import "components/file-container";
+@import "components/project-explorer";
+
+//import page files
+
+//import theme files
