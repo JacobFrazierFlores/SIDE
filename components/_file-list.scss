@@ -4,18 +4,23 @@
   margin-top: 0;
   margin-bottom: 0;
   list-style-type: none;
+  padding-left: 1.6em;
   // Represents the file image and file name
   li {
     cursor: pointer;
+    // Keep file image and name on single line
+    white-space: nowrap;
     // File image
     img {
       // Adds spacing between file image and file name
       padding-right: .4em;
+      width: 1.6em;
+      height: auto;
     }
     // File name
     a {
       // Reduce text size
-      font-size: .8em;
+      font-size: .9em;
     }
   }
 }

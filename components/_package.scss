@@ -1,16 +1,22 @@
 // Represents a sublist with a header and image
 .package {
   padding-left: .3em;
+  white-space: nowrap;
 
-  >img {
-    max-width: 10%;
-    height: auto;
-  }
-
-  >h3 {
-    font-size: .9em;
-    // Removes breakline
-    display: inline;
-    padding-left: .4em;
+  .package-header {
+    position: relative;
+    >img {
+      width: 1.2em;
+      height: auto;
+    }
+    >h3 {
+      position: absolute;
+      font-size: 1em;
+      // Removes breakline
+      display: inline;
+      padding-left: .4em;
+      margin-bottom: 0;
+      bottom: 0;
+    }
   }
 }
