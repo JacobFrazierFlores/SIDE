@@ -3,6 +3,9 @@
   // Remove dots and add a single vertical line
   list-style-type: none;
   border-right: 1px solid #d3d3d3;
+  max-width: 3em;
+  padding-left: 0;
+  padding-right: 1.5em;
   // Each individual line number
   > li {
     color: #d3d3d3;

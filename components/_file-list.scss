@@ -10,17 +10,18 @@
     cursor: pointer;
     // Keep file image and name on single line
     white-space: nowrap;
-    // File image
-    img {
-      // Adds spacing between file image and file name
-      padding-right: .4em;
-      width: 1.6em;
-      height: auto;
-    }
+
     // File name
     a {
       // Reduce text size
       font-size: .9em;
+      // File image
+      img {
+        // Adds spacing between file image and file name
+        padding-right: .4em;
+        width: 1.6em;
+        height: auto;
+      }
     }
   }
 }
